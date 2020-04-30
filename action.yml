@@ -2,7 +2,7 @@ name: Search Legal Headers
 description: GitHub Action for checking legal headers in your source files
 author: Roberto Abdelkader Martínez Pérez <robertomartinezp@gmail.com>
 branding:
-  icon: meh
+  icon: award
   color: yellow
 inputs: {}
 outputs: {}
