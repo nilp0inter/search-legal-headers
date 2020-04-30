@@ -4,11 +4,16 @@ Look for legal text in your source files or whatever
 
 ## Usage
 
-TODO
+Add the following snippet to your workflow:
+
+```yaml
+- name: Search Legal Headers
+  uses: nilp0inter/search-legal-headers@v0.0.2
+```
 
 ## Configuration
 
-A json file named `.legal.json` in the root of your repository with *file
+Add a json file named `.legal.json` in the root of your repository with *file
 patterns* and *strings* to search for.
 
 ```json
