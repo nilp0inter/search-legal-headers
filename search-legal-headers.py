@@ -22,7 +22,7 @@ from glob import glob
 
 all_good = True
 
-with open('.licenserc.json') as cfgfile:
+with open('.legal.json') as cfgfile:
     config = json.load(cfgfile)
     for expr, needle in config.items():
         for filename in glob(expr, recursive=True):
